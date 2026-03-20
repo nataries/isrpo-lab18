@@ -77,10 +77,26 @@ console.log("10" - 5);
 const numbersArray = [1, 2, 3];
 numbersArray[0] = 10;
 console.log(numbersArray);
-numbersArray = [5, 6, 7];
+//numbersArray = [5, 6, 7]; ошибка
 
 const persons = {name: "Denis", age:18 };
 person.age = 50;
 persons.city = "Volgograd";
 console.log(persons);
 person = { name: "Stas" };
+
+console.log(typeof "текст");
+console.log(typeof 42);
+console.log(typeof true);
+console.log(typeof undefined);
+console.log(typeof null);
+console.log(typeof {});
+console.log(typeof []);
+console.log(typeof function () {});
+
+let newPrice = 27;
+console.log(newPrice);
+console.log(typeof newPrice);
+newPrice = "27";
+console.log(newPrice);
+console.log(typeof newPrice);
